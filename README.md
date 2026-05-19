@@ -4,6 +4,10 @@ Where would you fit your automated tests in your Recipe project development pipe
 - "Within a Github action that runs whenever code is pushed"
   - Putting automated tests into a Github action creates an infinite, constant line of tests that automatically run on every push without relying on someone to manually do it. For the Recipe project, if someone pushes a change that breaks one of the features, the Github actions will catch it before it's pushed to the real world. 
 
+Expose - Checking for Understanding
+-  Would you use an end to end test to check if a function is returning the correct output?
+   -  NO!
+
 
 
 
